@@ -28,9 +28,8 @@ class String
 
   def count_sentences
     array_sentences = self.split(".")
-    binding.pry
+    
     array_sentences.count
-    binding.pry
   end
   
 end
