@@ -33,6 +33,7 @@ class String
       if sentence.length > 0
         count += 1
       end
+    end
     count
   end
   
