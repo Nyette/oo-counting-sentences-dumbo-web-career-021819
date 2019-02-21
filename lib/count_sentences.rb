@@ -28,9 +28,12 @@ class String
 
   def count_sentences
     array_sentences = self.split(".")
-    
-    array_sentences.count
+    count = 0
+    array_sentences.each do |sentence|
+      if sentence.length > 0
+        count += 1
+      end
+    count
   end
   
 end
-
