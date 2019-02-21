@@ -28,7 +28,6 @@ class String
 
   def count_sentences
     array_sentences = self.split(".")
-    binding.pry
     count = 0
     array_sentences.each do |sentence|
       if sentence.length > 0
