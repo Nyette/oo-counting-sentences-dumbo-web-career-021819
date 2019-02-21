@@ -31,7 +31,6 @@ class String
     count = 0
     array_sentences.each do |sentence|
       if sentence.length > 0
-        binding.pry
         count += 1
       end
     end
