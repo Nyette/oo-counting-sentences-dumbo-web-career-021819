@@ -28,6 +28,6 @@ class String
 
   def count_sentences
     array_sentences = self.split(".")
-    
+    array_sentences.count
   end
 end
